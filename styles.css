@@ -212,3 +212,82 @@ nav ul li a:hover {
     flex:1;
     height: auto;
 }
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 20%;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #000;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-bottom p {
+    color: #333;
+    font-size: 14px;
+}
+
+.payment-methods {
+    margin-top: 10px;
+}
+
+.payment-methods img {
+    width: 50px;
+    margin: 0 5px;
+}
+/* Hace que los productos se alineen en fila horizontal */
+#contenido div {
+    display: flex; /* Cambia la disposición de bloque a fila */
+    justify-content: center; /* Centra los elementos */
+    gap: 20px; /* Espacio entre los productos */
+    flex-wrap: wrap; /* Evita que los productos se salgan de la pantalla */
+}
+
+
+/* Ajustes a los artículos de los productos */
+section#contenido article {
+    border: 1px solid #ccc; /* Borde opcional */
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Ancho fijo para cada producto */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
