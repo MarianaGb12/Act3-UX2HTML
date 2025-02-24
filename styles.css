@@ -59,7 +59,7 @@ header {
     cursor: pointer;
 }
 
-/* Estilo para el menú de navegación */
+/* Estilo para el menú de navegación */
 nav {
     background-color: white;
     border-top: 1px solid #fbfbfb;
@@ -275,14 +275,14 @@ footer {
 }
 /* Hace que los productos se alineen en fila horizontal */
 #contenido div {
-    display: flex; /* Cambia la disposición de bloque a fila */
+    display: flex; /* Cambia la disposición de bloque a fila */
     justify-content: center; /* Centra los elementos */
     gap: 20px; /* Espacio entre los productos */
     flex-wrap: wrap; /* Evita que los productos se salgan de la pantalla */
 }
 
 
-/* Ajustes a los artículos de los productos */
+/* Ajustes a los artículos de los productos */
 section#contenido article {
     border: 1px solid #ccc; /* Borde opcional */
     padding: 10px;
@@ -291,3 +291,134 @@ section#contenido article {
     background-color: #f9f9f9;
     border-radius: 5px;
 }
+
+/* Perfildel usuario */
+.profile-page {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Sección de información del usuario */
+  .profile-page .user-info {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1200px;
+  }
+  
+  .profile-page .user-info img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .profile-page .user-details {
+    flex: 1;
+  }
+  
+  .profile-page .user-details h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-page .user-details p {
+    margin-bottom: 0.3rem;
+  }
+  
+  .profile-page .user-addresses {
+    margin-top: 1rem;
+  }
+  
+  .profile-page .user-addresses ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-page .user-addresses button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .profile-page .user-addresses button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Historial de Compras */
+  .profile-page .historial-compras {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 1200px;
+    margin: 0 auto 1rem;
+  }
+  
+  .profile-page .historial-compras h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Grid para los pedidos */
+  .profile-page .pedidos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .profile-page .pedido {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  .profile-page .pedido h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-page .pedido p {
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Imágenes dentro del pedido */
+  .profile-page .pedido .pedido-items {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .profile-page .pedido .pedido-items img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  /* Botones del pedido */
+  .profile-page .pedido-buttons {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .profile-page .pedido-buttons button {
+    flex: 1;
+    padding: 0.5rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .profile-page .pedido-buttons button:hover {
+    background-color: #0056b3;
+  }
